@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup Label="Configuration">
+        <SignAssembly>True</SignAssembly>
+        <DelaySign>False</DelaySign>
+        <WarningLevel>0</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>net461</TargetFramework>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(TargetFramework)' == 'net461' ">
+        <OutputType>library</OutputType>
+    </PropertyGroup>
+    <PropertyGroup>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <ApplicationIcon />
+        <OutputTypeEx>library</OutputTypeEx>
+        <StartupObject />
+        <RootNamespace />
+        <AssemblyName>SampleApp</AssemblyName>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="itext.commons" Version="9.2.0-snapshot" />
+    </ItemGroup>
+    <ItemGroup>
+    </ItemGroup>
+</Project>

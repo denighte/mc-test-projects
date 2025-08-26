@@ -1,0 +1,1 @@
+{Enchantments:[{id:protection,lvl:4},{id:blast_protection,lvl:4},{id:fire_protection,lvl:4},{id:projectile_protection,lvl:4}]}

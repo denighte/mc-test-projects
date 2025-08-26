@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Development\\test\\SampleApp\\SampleApp\\SampleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Development\\test\\SampleApp\\SampleApp\\SampleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\test\\SampleApp\\SampleApp\\SampleApp.csproj",
+        "projectName": "SampleApp",
+        "projectPath": "C:\\Development\\test\\SampleApp\\SampleApp\\SampleApp.csproj",
+        "packagesPath": "C:\\Users\\dmitry.radchuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\test\\SampleApp\\SampleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dmitry.radchuk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Users\\dmitry.radchuk\\.nuget\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "itext.commons": {
+              "target": "Package",
+              "version": "[9.2.0-snapshot, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.426\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Z#",
+        "ZXZ",
+        "#Z#"
+    ],
+    "key": {
+        "#": { "item": "minecraft:glow_ink_sac" },
+        "X": { "item": "minecraft:netherite_ingot" },
+        "Z": { "item": "minecraft:amethyst_shard"}
+    },
+    "result": { "item": "modpacktweak:moon_crystal" }
+}

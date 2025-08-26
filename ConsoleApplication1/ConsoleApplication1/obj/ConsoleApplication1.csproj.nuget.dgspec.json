@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Development\\test\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.csproj": {}
+  },
+  "projects": {
+    "C:\\Development\\test\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\test\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.csproj",
+        "projectName": "ConsoleApplication1",
+        "projectPath": "C:\\Development\\test\\ConsoleApplication1\\ConsoleApplication1\\ConsoleApplication1.csproj",
+        "packagesPath": "C:\\Users\\dmitry.radchuk\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\test\\ConsoleApplication1\\ConsoleApplication1\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\dmitry.radchuk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files\\PackageManagement\\NuGet\\Packages": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "itext.commons": {
+              "target": "Package",
+              "version": "[9.2.0-snapshot, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

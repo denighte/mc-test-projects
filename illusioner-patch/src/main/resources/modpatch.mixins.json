@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.unknown.patch.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "modpatch.refmap.json",
+  "mixins": [
+    "ALCombatRulesMixin",
+    "BoatMixin",
+    "WOMChestLootTablesMixin",
+    "ClusterCrossbowItemMixin"
+  ],
+  "client": [
+    "MapRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
